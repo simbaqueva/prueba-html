@@ -1,450 +1,382 @@
 <!doctype html>
 <html>
+
 <head>
-<title>prueba front</title>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=divice-width, initial-scale=1">
+    <title>prueba front</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=divice-width, initial-scale=1">
 </head>
 <script src="js/jquery-1.11.1.min.js"></script>
 <script src="js/jquery.validationEngine.js"></script>
 <script src="js/jquery.validationEngine-es.js"></script>
 <script src="js/bootstrap.js"></script>
 
-
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="css/validationEngine.jquery.css">
 
-
 <body>
-<header class="hed">
-<div class="row">
-	   <div class="col-md-3 col-md-offset-2">
-	         <img class="img" src="http://localhost:8080/pruebafront/images/logo.png">
-	   </div> 
-
-	<div class="col-md-3 col-md-offset-3">
-	<div class="men">
-  <ul>
-		  <li><a href="http://localhost:8080/pruebafront/prueba.html">Inicio</a></li>
-		  <li><a href="http://localhost:8080/pruebafront/equipo.html">Equipo</a></li>
-		  <li><a href="http://localhost:8080/pruebafront/servicios.html">Servicios</a></li>
-		  <li><a href="http://localhost:8080/pruebafront/cotactenos.html">Contactenos</a></li>
-</ul>  
-	</div>
-	</div>
-</div>
-</header>
-<div class="content">
-
-  <div class="mover">
-           </div>
-		<div class="contenedor">
-
-
-		  
-<div class="row">
-			   <div class="col-md-12">
-			      <div class="cambiar">
-			       <div class="subcontent" id="log"> 
-					  	  <div class="col-md-11">
-					  	     <div class="alinear2">
-					                  <div class="alinear">  
-			                         <form name="myForm" class="myForm" method="post">
-							               <div>
-							                  <h1 class="text">Ingreso</h1>
-							               </div>
-							            
-							                    <p class="tex">Correo electrónico</p>
-							                    <div class="alin">
-							                         <input type="text" class="lab validate[required,custom[email]]"  id="email" name="email" value=""  placeholder="Email"/>
-							                    </div>
-							            
-
-							               <div>
-							                    <p class="tex">Contraseña</p>
-							                    <div class="alin">
-
-							                        <input type="password"  id="contra" name="contra" class="lab validate[required]" value="">
-							                    </div>
-							                 </div>
-							             </div>
-			                         <div class="row">
-										<div class="col-md-4 col-md-offset-8">
-										         <h1 class="ts">¿perdiste tu contraseña?</h1> 
-										   </div>    
-						             </div>
-								                 <div class="row">
-									                 <div class="col-md-2 col-md-offset-1">
-										                  <div class="boton"> 
-										                         	  <button type="submit" class="btn2">INGRESAR</button><img class="imgf" src="http://localhost:8080/pruebafront/images/face.png">
-										                    </div>
-
-										                 </div>  
-										                  <div class="col-md-2 col-md-offset-5">
-											                  <div class="boton"> 
-											                        <button type="submit" name="submit" class="btn validate">INGRESAR<img class="pnj2" src="http://localhost:8080/pruebafront/images/flechiteiz.png"></button>
-											                    </div>
-										                    
-										                 </div> 
-
-										               
-
-
-									                   </div>
-									                 
-									           </div> 
-									         </div>  
-                                
-										<!-- Modal -->
-										<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-										  <div class="modal-dialog" role="document">
-										    <div class="modal-content">
-										      <div class="modal-header">
-										        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-										        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-										          <span aria-hidden="true">&times;</span>
-										        </button>
-										      </div>
-										      <div class="modal-body">
-										     <p class=""> los valores ingresados son:<br> <span id = "display_message"></span></p>
-										      </div>
-                                            										      <div class="modal-footer">
-										      <button type="button" class="btn2 btn-primary"><a href="http://localhost:8080/pruebafront/prueba.html">OK</a></button>
-										      </div>
-										    </div>
-										  </div>
-										</div>
-
-
-			                                </form>
-			                                <div class="col-md-1">
-									           <div class="camb">
-									             <div  class="regis">
-									             <div class="row">
-									             <div class="col-md-1">
-									              <button type="submit" id="regis2" class="regis2"  onclick="plusDivs(1)"><h1 class="rotacion">REGISTRO</h1>
-									              </button>
-									              </div>
-									              </div>
-
-
-
-
-									            <div class="row"> 
-										            <div class="col-md-12">
-										             <img class="fle" src="http://localhost:8080/pruebafront/images/flechita.png" alt="">
-										             </div>
-
-
-									            </div> 
-									           
-									             </div>
-									           </div> 
-			                                  <div class="row">  
-										           <div class="col-md-7 col-md-offset-5">
-										            <img class="pnj" src="http://localhost:8080/pruebafront/images/contacto2.png" alt="">
-										            </div>
-									            </div>
-
-									       </div>
-									 		      
-					              
-							   </div>
-				    </div>			   
-			    </div>
-			</div>
-
-
-
-
-<div class="row">
-				<div class="col-md-12">
-				  <div class="cambiar">
-				     <div class="subcontent2" id="subingre">
-								 <div class="row">
-								   <div class="col-md-3">
-										 <div class="ingre">
-										   <button type="submit" class="ingre2" onclick="plusDivs(-1)"><h1 class="rotacion">INGRESO</h1></button>
-										         
-										     <div class="row"> 
-											            <div class="col-md-12">
-											             <img class="fle" src="http://localhost:8080/pruebafront/images/flechita.png" alt="">
-											             </div>
-
-
-										            </div>
-
-										          
-												       </div>  
-												        <div class="row">  
-											           <div class="col-md-5 col-md-offset-2">
-											            <img class="pnj" src="http://localhost:8080/pruebafront/images/contacto.png" alt="">
-											            </div>
-										            </div>
-						                </div>
-
-							      <div class="col-md-9">
-				                       <div class="alinear2">
-									        <div class="alinear">
-									        <div class="row">  
-								                   <div class="col-md-12">
-								                  <h1 class="text">Registro</h1>
-								                  </div>
-								                  </div>
-								        
-								  <form name="myForm"  class="myForm"  method="post">
-								                    <p class="tex1">Correo electronico</p>
-								                    <div class="alin">
-								                         <input name="corr" type="text" class="lab validate[required, custom[email]]" value="" id="corr">
-								                    </div>
-								            
-						                     <div class="row">
-								               <div class="col-md-4">
-								                    <p class="tex2">Contraseña</p>
-								                    <div class="aline">
-
-								                        <input name="cont" type="password" class="lab2" value="" id="cont">
-								                    </div>
-								                 </div>
-
-						                       
-						                        
-						                           
-
-								                <div class="col-md-1 col-md-offset-1"> 
-								                <p class="tex3">Repite tu Contraseña</p>
-								                 
-								                    <div class="aline">
-
-								                        <input type="password" class="lab3" value="" name="confirm" id="confirm">
-								                    </div>
-								                 </div>
-								              </div>   
-				                            </div>
-
-
-
-								             </div>
-
-									               <div class="row">
-											              
-													              
-								                                
-								                                     <div class="col-md-1">
-														                  <div class="boton"> 
-														                         	  <button type="submit" class="btn2">INGRESAR<img class="pnj3" src="http://localhost:8080/pruebafront/images/face.png" alt=""></button>	
-														                    </div>
-						                                                      </div>
-						                                             <div class="col-md-4 col-md-offset-5">
-						                                               <div class="boton"> 
-													                         	<button type="submit" name="submit" class="btn validate">REGISTRARME</button>  	
-													                    </div>
-												                  </div>
-
-
-												                
-										                   </div>			    
-										                   
-										       </div>
-
-										 		</div>     
-
-										 			<!-- Modal -->
-										<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-										  <div class="modal-dialog" role="document">
-										    <div class="modal-content">
-										      <div class="modal-header">
-										        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-										        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-										          <span aria-hidden="true">&times;</span>
-										        </button>
-										      </div>
-										      <div class="modal-body">
-										     <p class=""> los valores ingresados son:<br> <span id = "display_message"></span></p>
-										      </div>
-                                            										      <div class="modal-footer">
-										      <button type="button" class="btn2 btn-primary"><a href="#subingre">OK</a></button>
-										      <button type="button" class="btn btn-primary" id="pasarplus" onclick="next()">Siguiente</button>
-										      </div>
-										    </div>
-										  </div>
-										</div>
- 
-
-				                        </form>
-									 </div> 
-		           </div>
-				</div>
-			</div>
-
-
-
-
-
-			<div class="row">
-					<div class="col-md-12">
-					  <div class="cambiar">
-					    <div class="subcontent3" id="log2">
-						         <div class="row">
-						           <div class="col-md-1">
-
-					                  <div class="contact">
-					                 <P class="contact">CONTACTO</P>
-					                       </div>
-					                    <img class="pnj" src="http://localhost:8080/pruebafront/images/contacto.png" alt="">
-                                          
-					                    </div>  
-					                 <div class="col-md-11"> 
-							          <div class="alinear2">
-								        <div class="alinear">
-								           
-							                  <h1 class="text">Contactos</h1>
-							                  
-							        
-							         <form name="formula" id="formula" onsubmit="return validateForm();" method="post">
-							                    <p class="tex1">Ciudad</p>
-							                    <div class="alin">
-							                         
-							                            <div class="lab" value="" id="selec">
-							                         </div>
-							                    </div>
-							            
-					                    
-							                    <p class="tex2">Nombre</p>
-							                    <input name="nomb" id="nom" type="text" class="lab2" value="" id="">
-							                 
-
-					                       
-					                        
-					                           
-
-							                 
-							                <p class="tex3">Email</p>
-							          
-							                        <input type="text" class="lab3" name="email" value="" id="email">
-
-							                             <p class="tex3">Asunto</p>
-							          
-							                        <input type="text" class="lab4" name="asunto" value="" id="asunto">
-
-							             <p class="tex3">Mensaje</p>
-							           <textarea name="mens" id="mens" class="lab5"></textarea>
-							                             <div class="col-md-3 col-md-offset-9">
-					                    		                 <div class="boton"> 
-												                         	  <button type="submit" class="btn">REGISTRARME</button>	
-												         </div>                	  
-												  </div>            
-							                
-							                 
-							              </div>   
-
-					                   </div>
-					              </form>
-
-							             </div>
-
-								      </div>  
-								   </div> 
-				</div>
-					</div>					   
-			</div>
-
-
-	</div>
-</div>
-
-<footer>
-  
-</footer>
-
-
-
-
-
-
-
-
-  </body>
+    <header class="hed">
+        <div class="row">
+            <div class="col-md-3 col-md-offset-2">
+                <img class="img" src="http://localhost:8080/pruebafront/images/logo.png">
+            </div>
+
+            <div class="col-md-3 col-md-offset-3">
+                <div class="men">
+                    <ul>
+                        <li><a href="http://localhost:8080/pruebafront/prueba.html">Inicio</a></li>
+                        <li><a href="http://localhost:8080/pruebafront/equipo.html">Equipo</a></li>
+                        <li><a href="http://localhost:8080/pruebafront/servicios.html">Servicios</a></li>
+                        <li><a href="http://localhost:8080/pruebafront/cotactenos.html">Contactenos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="content">
+
+        <div class="mover">
+        </div>
+        <div class="contenedor">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="cambiar">
+                        <div class="subcontent" id="log">
+                            <div class="col-md-11">
+                                <div class="alinear2">
+                                    <div class="alinear">
+                                        <form name="myForm" class="myForm" method="post">
+                                            <div>
+                                                <h1 class="text">Ingreso</h1>
+                                            </div>
+
+                                            <p class="tex">Correo electrónico</p>
+                                            <div class="alin">
+                                                <input type="text" class="lab validate[required,custom[email]]" id="email" name="email" value="" placeholder="Email" />
+                                            </div>
+
+                                            <div>
+                                                <p class="tex">Contraseña</p>
+                                                <div class="alin">
+
+                                                    <input type="password" id="contra" name="contra" class="lab validate[required]" value="">
+                                                </div>
+                                            </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4 col-md-offset-8">
+                                            <h1 class="ts">¿perdiste tu contraseña?</h1>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-2 col-md-offset-1">
+                                            <div class="boton">
+                                                <button type="submit" class="btn2">INGRESAR</button><img class="imgf" src="http://localhost:8080/pruebafront/images/face.png">
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-2 col-md-offset-5">
+                                            <div class="boton">
+                                                <button type="submit" name="submit" class="btn validate">INGRESAR<img class="pnj2" src="http://localhost:8080/pruebafront/images/flechiteiz.png"></button>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p class=""> los valores ingresados son:
+                                                <br> <span id="display_message"></span></p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn2 btn-primary"><a href="http://localhost:8080/pruebafront/prueba.html">OK</a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            </form>
+                            <div class="col-md-1">
+                                <div class="camb">
+                                    <div class="regis">
+                                        <div class="row">
+                                            <div class="col-md-1">
+                                                <button type="submit" id="regis2" class="regis2" onclick="plusDivs(1)">
+                                                    <h1 class="rotacion">REGISTRO</h1>
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <img class="fle" src="http://localhost:8080/pruebafront/images/flechita.png" alt="">
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-7 col-md-offset-5">
+                                        <img class="pnj" src="http://localhost:8080/pruebafront/images/contacto2.png" alt="">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="cambiar">
+                        <div class="subcontent2" id="subingre">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="ingre">
+                                        <button type="submit" class="ingre2" onclick="plusDivs(-1)">
+                                            <h1 class="rotacion">INGRESO</h1></button>
+
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <img class="fle" src="http://localhost:8080/pruebafront/images/flechita.png" alt="">
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-5 col-md-offset-2">
+                                            <img class="pnj" src="http://localhost:8080/pruebafront/images/contacto.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-9">
+                                    <div class="alinear2">
+                                        <div class="alinear">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <h1 class="text">Registro</h1>
+                                                </div>
+                                            </div>
+
+                                            <form name="myForm" class="myForm" method="post">
+                                                <p class="tex1">Correo electronico</p>
+                                                <div class="alin">
+                                                    <input name="corr" type="text" class="lab validate[required, custom[email]]" value="" id="corr">
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <p class="tex2">Contraseña</p>
+                                                        <div class="aline">
+
+                                                            <input name="cont" type="password" class="lab2" value="" id="cont">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-1 col-md-offset-1">
+                                                        <p class="tex3">Repite tu Contraseña</p>
+
+                                                        <div class="aline">
+
+                                                            <input type="password" class="lab3" value="" name="confirm" id="confirm">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="row">
+
+                                        <div class="col-md-1">
+                                            <div class="boton">
+                                                <button type="submit" class="btn2">INGRESAR<img class="pnj3" src="http://localhost:8080/pruebafront/images/face.png" alt=""></button>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-md-offset-5">
+                                            <div class="boton">
+                                                <button type="submit" name="submit" class="btn validate">REGISTRARME</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p class=""> los valores ingresados son:
+                                                <br> <span id="display_message"></span></p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn2 btn-primary"><a href="#subingre">OK</a></button>
+                                            <button type="button" class="btn btn-primary" id="pasarplus" onclick="next()">Siguiente</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="cambiar">
+                        <div class="subcontent3" id="log2">
+                            <div class="row">
+                                <div class="col-md-1">
+
+                                    <div class="contact">
+                                        <P class="contact">CONTACTO</P>
+                                    </div>
+                                    <img class="pnj" src="http://localhost:8080/pruebafront/images/contacto.png" alt="">
+
+                                </div>
+                                <div class="col-md-11">
+                                    <div class="alinear2">
+                                        <div class="alinear">
+
+                                            <h1 class="text">Contactos</h1>
+
+                                            <form name="formula" id="formula" onsubmit="return validateForm();" method="post">
+                                                <p class="tex1">Ciudad</p>
+                                                <div class="alin">
+
+                                                    <div class="lab" value="" id="selec">
+                                                    </div>
+                                                </div>
+
+                                                <p class="tex2">Nombre</p>
+                                                <input name="nomb" id="nom" type="text" class="lab2" value="" id="">
+
+                                                <p class="tex3">Email</p>
+
+                                                <input type="text" class="lab3" name="email" value="" id="email">
+
+                                                <p class="tex3">Asunto</p>
+
+                                                <input type="text" class="lab4" name="asunto" value="" id="asunto">
+
+                                                <p class="tex3">Mensaje</p>
+                                                <textarea name="mens" id="mens" class="lab5"></textarea>
+                                                <div class="col-md-3 col-md-offset-9">
+                                                    <div class="boton">
+                                                        <button type="submit" class="btn">REGISTRARME</button>
+                                                    </div>
+                                                </div>
+
+                                        </div>
+
+                                    </div>
+                                    </form>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+
+    </footer>
+
+</body>
+
 </html>
 
 <script>
+    $(document).ready(function() {
+        $('.validate').on('click', function() {
+            $('.myForm').validationEngine();
+        });
+        // function ver(){
+        //       var message = document.getElementById("email").value;
+        //       display_message.html(message);
+        //   };
+        var showData = $('#selec');
+        $.getJSON('js/ciudades.json', function(data) {
+            var items = data.ciudades.map(function(item) {
+                var c = {};
+                c.tt = item.ciudad;
 
-$ (document).ready(function (){
-	$('.validate').on('click', function() {
-    $('.myForm').validationEngine();
+                return c;
+            });
+            showData.empty();
+            if (items.length) {
+                var block, op;
+                block = $('<select class="lab"></select>');
+                $(items).each(function(i) {
+                    op = '<option class="nom">' + items[i].tt + '</option>';
+                    block.append(op);
+                })
+                showData.append(block);
+            }
+        }).done(function() {
+            console.log("success");
+        }).fail(function() {
+            console.log("error");
+        }).always(function() {
+            console.log("complete");
+        });
+    });
+    var slideIndex = 1;
+    showDivs(slideIndex);
 
+    function plusDivs(n) {
+        showDivs(slideIndex += n);
+    };
 
-
-	});
-      // function ver(){
-      //       var message = document.getElementById("email").value;
-      //       display_message.html(message);
-      //   };
-
-
-
-		var showData = $('#selec');
-
-	$.getJSON('js/ciudades.json', function (data) {
-
-		var items = data.ciudades.map(function(item) {
-
-			var c = {};
-			c.tt = item.ciudad;	
-			
-			return c;
-		});
-
-		showData.empty();
-		if (items.length) {
-			var block, op;
-
-			block = $('<select class="lab"></select>');
-
-			$(items).each(function (i) {
-				op = '<option class="nom">' + items[i].tt + '</option>';
-				block.append(op);
-			})
-			showData.append(block);
-		}
-	}).done(function () {
-		console.log("success");
-	}).fail(function () {
-		console.log("error");
-	}).always(function () {
-		console.log("complete");
-	});
-});
-
-
-
-
-
-
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-};
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("cambiar");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display= "block";  
-};
-
-
-
-
-
-
-
-
+    function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("cambiar");
+        if (n > x.length) {
+            slideIndex = 1
+        }
+        if (n < 1) {
+            slideIndex = x.length
+        }
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        x[slideIndex - 1].style.display = "block";
+    };
 </script>

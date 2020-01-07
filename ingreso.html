@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+<title>prueba front</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=divice-width, initial-scale=1">
+</head>
+<!-- <script src="js/jquery-2.2.4.min.js"></script>
+ -->
+ <script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/additional-methods.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+<body>
+<header class="hed">
+<div class="row">
+	   <div class="col-md-3 col-md-offset-2">
+	         <img class="img" src="http://localhost:8080/pruebafront/images/logo.png">
+	   </div> 
+
+	<div class="col-md-2 col-md-offset-3">
+	<div class="men">
+  <ul>
+		  <li><a href="http://localhost:8080/pruebafront/prueba.html">Inicio</a></li>
+		  <li><a href="http://localhost:8080/pruebafront/equipo.html">Equipo</a></li>
+		  <li><a href="http://localhost:8080/pruebafront/servicios.html">Servicios</a></li>
+		  <li><a href="http://localhost:8080/pruebafront/prueba.html">Login</a></li>
+		</ul>  
+	</div>
+	</div>
+</div>
+</header>
+<div class="content">
+
+  <div class="mover">
+           </div>
+		<div class="contenedor">
+		  
+
+
+		  	  
+
+
+			   
+			
+		
+
+
+	
+
+
+</div>      
+</div>
+</div>
+
+<footer>
+  
+</footer>
+
+
+
+
+
+
+
+
+  </body>
+</html>
+
+<script>
+jQuery.validator.setDefaults({
+  debug: true,
+  success: "valid"
+});
+$( "#formu" ).validate({
+  rules: {
+    corr: {
+      required: true
+    },
+
+    cont:{
+    	required: true
+    },
+
+    confirm:{
+    	required: true
+    }
+
+   
+  }
+});
+</script>

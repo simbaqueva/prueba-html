@@ -1,0 +1,343 @@
+<!doctype html>
+<html>
+<head>
+<title>prueba front</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=divice-width, initial-scale=1">
+</head>
+<script src="js/jquery-2.2.4.min.js"></script>
+<script src="js/bootstrap.js"></script>
+
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js" type="text/javascript" charset="utf-8" async defer></script>
+
+<body>
+<header class="hed">
+<div class="row">
+	   <div class="col-md-3 col-md-offset-2">
+	         <img class="img" src="http://localhost:8080/pruebafront/images/logo.png">
+	   </div> 
+
+	<div class="col-md-2 col-md-offset-3">
+	<div class="men">
+  <ul>
+		  <li><a href="http://localhost:8080/pruebafront/prueba.html">Inicio</a></li>
+		  <li><a href="http://localhost:8080/pruebafront/equipo.html">Equipo</a></li>
+		  <li><a href="http://localhost:8080/pruebafront/servicios.html">Servicios</a></li>
+		  <li><a href="http://localhost:8080/pruebafront/prueba.html">Login</a></li>
+		</ul>  
+	</div>
+	</div>
+</div>
+</header>
+<div class="content">
+
+  <div class="mover">
+           </div>
+		<div class="contenedor">
+
+
+		  
+<div class="row">
+			   <div class="col-md-12">
+			       <div class="subcontent" id="log"> 
+					  	  <div class="col-md-11">
+					  	     <div class="alinear2">
+					                  <div class="alinear">  
+			                         <form name="myForm" id="register" method="post"  onsubmit="return validateForm();">
+							               <div>
+							                  <h1 class="text">Ingreso</h1>
+							               </div>
+							            
+							                    <p class="tex">Correo electrónico</p>
+							                    <div class="alin">
+							                         <input type="text" class="lab" id="email" name="email" value="" placeholder="Email"/>
+							                    </div>
+							            
+
+							               <div>
+							                    <p class="tex">Contraseña</p>
+							                    <div class="alin">
+
+							                        <input type="password" name="pass" class="lab" value="" id="">
+							                    </div>
+							                 </div>
+							             </div>
+			                         <div class="row">
+										<div class="col-md-4 col-md-offset-8">
+										         <h1 class="ts">¿perdiste tu contraseña?</h1> 
+										   </div>    
+						             </div>
+								                 <div class="row">
+									                 <div class="col-md-2 col-md-offset-1">
+										                  <div class="boton"> 
+										                         	  <button type="submit" class="btn2">INGRESAR</button>	
+										                    </div>
+
+										                 </div>  
+										                  <div class="col-md-2 col-md-offset-5">
+											                  <div class="boton"> 
+											                        <button type="submit" name="submit" class="btn">INGRESAR<img class="pnj2" src="http://localhost:8080/pruebafront/images/flechiteiz.png"></button>
+											                    </div>
+										                    
+										                 </div> 
+
+									                   </div>
+									                 
+									           </div> 
+									         </div>  
+			                                </form>
+			                                <div class="col-md-1">
+									           <div class="camb">
+									             <div  class="regis">
+									             <div class="row">
+									             <div class="col-md-1">
+									              <button type="submit" id="regis2" class="regis2"><a href="">REGISTRO</button></a>
+									              </button>
+									              </div>
+									              </div>
+
+
+
+
+									            <div class="row"> 
+										            <div class="col-md-12">
+										             <img class="fle" src="http://localhost:8080/pruebafront/images/flechita.png" alt="">
+										             </div>
+
+
+									            </div> 
+									           
+									             </div>
+									           </div> 
+			                                  <div class="row">  
+										           <div class="col-md-7 col-md-offset-5">
+										            <img class="pnj" src="http://localhost:8080/pruebafront/images/contacto2.png" alt="">
+										            </div>
+									            </div>
+
+									       </div>
+									 		      
+					              
+							   </div>
+			    </div>
+			</div>
+
+
+
+
+<div class="row">
+				<div class="col-md-12">
+				     <div class="subcontent2">
+								 <div class="row">
+								   <div class="col-md-1">
+										 <div class="ingre">
+										   <button type="submit" class="ingre2"><a href="http://localhost:8080/pruebafront/prueba.html">INGRESO</button></a>
+										              </button>
+										     <div class="row"> 
+											            <div class="col-md-12">
+											             <img class="fle" src="http://localhost:8080/pruebafront/images/flechita.png" alt="">
+											             </div>
+
+
+										            </div>
+
+										          
+												       </div>  
+												        <div class="row">  
+											           <div class="col-md-7 col-md-offset-5">
+											            <img class="pnj" src="http://localhost:8080/pruebafront/images/contacto.png" alt="">
+											            </div>
+										            </div>
+						                </div>
+
+							      <div class="col-md-11">
+				                       <div class="alinear2">
+									        <div class="alinear">
+									        <div class="row">  
+								                   <div class="col-md-12">
+								                  <h1 class="text">Registro</h1>
+								                  </div>
+								                  </div>
+								        
+								  <form name="formu" id="formu" onsubmit="return validateForm();" method="post">
+								                    <p class="tex1">Correo electronico</p>
+								                    <div class="alin">
+								                         <input name="corr" type="text" class="lab" value="" id="corr">
+								                    </div>
+								            
+						                     <div class="row">
+								               <div class="col-md-6">
+								                    <p class="tex2">Contraseña</p>
+								                    <div class="aline">
+
+								                        <input name="cont" type="password" class="lab2" value="" id="cont">
+								                    </div>
+								                 </div>
+
+						                       
+						                        
+						                           
+
+								                <div class="col-md-3 col-md-offset-3"> 
+								                <p class="tex3">Repite tu Contraseña</p>
+								                 
+								                    <div class="aline">
+
+								                        <input type="password" class="lab3" value="" name="confirm" id="confirm">
+								                    </div>
+								                 </div>
+								              </div>   
+				                            </div>
+
+
+
+								             </div>
+
+									               <div class="row">
+											              
+													              
+								                                
+								                                     <div class="col-md-2 col-md-offset-3">
+														                  <div class="boton"> 
+														                         	  <button type="submit" class="btn2">INGRESAR<img class="pnj3" src="http://localhost:8080/pruebafront/images/face.png" alt=""></button>	
+														                    </div>
+						                                                      </div>
+						                                             <div class="col-md-3 col-md-offset-3">
+						                                               <div class="boton"> 
+													                         	<button type="submit" class="btn" onclick="return Validate()" />REGISTRARME</button>  	
+													                    </div>
+												                  </div>
+
+
+												                
+										                   </div>			    
+										                   
+										       </div>
+
+										 		</div>      
+
+				                        </form>
+									 </div> 
+				</div>
+			</div>
+
+
+
+
+
+			<div class="row">
+					<div class="col-md-12">
+					    <div class="subcontent3">
+						         <div class="row">
+						           <div class="col-md-1">
+
+					                  <div class="contact">
+					                   <button type="submit" class="contact"><a href="http://localhost:8080/pruebafront/cotactenos.html">INGRESO</button></a>
+					                       </div>
+					                    <img class="pnj" src="http://localhost:8080/pruebafront/images/contacto.png" alt="">
+
+					                    </div>  
+					                 <div class="col-md-11"> 
+							          <div class="alinear2">
+								        <div class="alinear">
+								           
+							                  <h1 class="text">Contactos</h1>
+							                  
+							        
+							         <form name="formu" id="formu" onsubmit="return validateForm();" method="post">
+							                    <p class="tex1">Ciudad</p>
+							                    <div class="alin">
+							                         
+							                            <div class="lab" value="" id="selec">
+							                         </div>
+							                    </div>
+							            
+					                    
+							                    <p class="tex2">Nombre</p>
+							                    <input name="nomb" id="nom" type="text" class="lab2" value="" id="">
+							                 
+
+					                       
+					                        
+					                           
+
+							                 
+							                <p class="tex3">Email</p>
+							          
+							                        <input type="text" class="lab3" name="email" value="" id="email">
+
+							                             <p class="tex3">Asunto</p>
+							          
+							                        <input type="text" class="lab4" name="asunto" value="" id="asunto">
+
+							             <p class="tex3">Mensaje</p>
+							           <textarea name="mens" id="mens" class="lab5"></textarea>
+							                             <div class="col-md-3 col-md-offset-9">
+					                    		                 <div class="boton"> 
+												                         	  <button type="submit" class="btn">REGISTRARME</button>	
+												         </div>                	  
+												  </div>            
+							                
+							                 
+							              </div>   
+
+					                   </div>
+					              </form>
+
+							             </div>
+
+								      </div>  
+								   </div> 
+					</div>					   
+			</div>
+		
+		
+
+	</div>
+</div>
+
+<footer>
+  
+</footer>
+
+
+
+
+
+
+
+
+  </body>
+</html>
+
+<script>
+
+function validateForm() {
+    var x = document.forms["myForm"]["email"].value;
+    var atpos = x.indexOf("@");
+    var dotpos = x.lastIndexOf(".");
+    if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
+      alert("ingresar correo valido");
+        return false;
+    }
+};
+
+function CheckPassword(inputtxta)   
+{   
+var passw=  /^[A-Za-z]\w{7,14}$/;  
+if(inputtxt.value.match(passw))   
+{   
+alert('Correct, try another...')  
+return true;  
+}  
+else  
+{   
+alert('Wrong...!')  
+return false;  
+}  
+} 
+</script>

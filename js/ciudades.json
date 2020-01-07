@@ -1,0 +1,30 @@
+{
+	"ciudades":[
+		{
+			"ciudad":"Bogotá"
+		},
+		{
+		    "ciudad":"Medellín"
+	    },
+
+	    {
+	    	"ciudad":"Cartagena"
+	    },
+
+	    {
+	    	"ciudad":"Cali"
+	    },
+
+	    {
+	    	"ciudad":"Barranquilla"
+	    },
+
+	    {
+	    	"ciudad":"Bucaramanga"
+	    }
+
+
+
+	]
+
+}
